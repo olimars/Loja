@@ -22,6 +22,6 @@ public class Fatura {
  private int nifCliente;
  private int contactoCliente;
 public Fatura(){
-    2323
+    
 } 
 }
