@@ -12,7 +12,7 @@ package loja;
 public class Vendas {
     private int id;
     private static int ultimo=0;
-    private int data;
+   
 public Vendas(){
     
 }    
