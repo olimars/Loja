@@ -12,6 +12,7 @@ package loja;
 public class Stock extends Artigos{
     private double quantidade;
     private int id;
+    private int preco;
 public Stock(){
     
 }    
