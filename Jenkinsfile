@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('Ver') {
+    stage('va') {
       steps {
-        build(propagate: true, quietPeriod: 1, job: 'loja.java', wait: true)
+        junit(allowEmptyResults: true, keepLongStdio: true, testResults: 'ha')
       }
     }
   }
