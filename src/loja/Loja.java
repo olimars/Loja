@@ -14,7 +14,7 @@ public class Loja {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static voi main(String[] args) {
         // TODO 
     }
     
