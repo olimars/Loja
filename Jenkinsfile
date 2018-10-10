@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('Bul') {
+    stage('build') {
       steps {
-        build(quietPeriod: 1, job: 'ff')
+        sh 'npm install'
       }
     }
   }
