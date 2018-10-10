@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Bul') {
       steps {
-        build(quietPeriod: 1, job: 'teste')
+        build(quietPeriod: 1, job: 'ff')
       }
     }
   }
