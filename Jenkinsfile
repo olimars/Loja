@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('va') {
+    stage('Bul') {
       steps {
-        junit(allowEmptyResults: true, keepLongStdio: true, testResults: 'ha')
+        build(quietPeriod: 1, job: 'teste')
       }
     }
   }
